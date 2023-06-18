@@ -1,0 +1,56 @@
+@media screen and (min-width:1024px){
+  
+    .form_article{
+        overflow: scroll;
+    }
+}
+
+@media screen and (min-width:800px){
+   
+    
+    .form_article{
+        overflow: scroll;
+    }
+}
+
+@media screen and (min-width:600px){
+   
+    .fa-solid{
+        visibility:hidden;
+    }
+    .form_article{
+        overflow: scroll;
+    }
+}
+
+@media screen and (max-width:600px) {
+    header{
+        display: flex;
+        justify-content: center;
+    }
+    .box1{
+        display: flex;
+        justify-content: flex-end;
+    }
+    .box1 li a{
+        display: none ;
+    }
+    .fa-solid{
+        display: block;
+        color: black;
+    }
+    .form_article{
+        height:100%;
+    }
+    .button{
+        margin-top: 35px;
+    }
+    .slider{
+        display: flex;
+        align-items: stretch;
+        background-size: contain;
+    }
+    .rightImg{
+        display: none;
+    }
+}
